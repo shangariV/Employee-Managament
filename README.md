@@ -1,16 +1,68 @@
-# employee_management
+# Employee_Management
 
-A new Flutter project.
+This is a Flutter project that demonstrates a basic CRUD (Create, Read, Update, Delete) application. The app interacts with a cosmocloud API to perform CRUD operations on a database.
+
+## Prerequisites
+
+Before you can run this project, ensure you have the following installed:
+
+Flutter SDK: Install Flutter
+Dart SDK: Included with Flutter.
+Android Studio or Visual Studio Code: For code editing and debugging.
+Xcode: Required for iOS development (macOS only).
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Follow these steps to set up and run the project locally:
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone the Repository
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+    ```bash
+     git clone https://github.com/shangariV/Employee-Managament.git
+ 
+     cd Employee-Managament
+   
+1. Install Dependencies
+   
+      Run the following command to get the necessary packages:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+      ```bash
+      flutter pub get
+   
+4. Set Up the Environment
+   
+     Ensure you have an Android or iOS device/emulator connected and set up.
+      Android: Use Android Studio's AVD Manager or a physical device.
+   
+      iOS: Use Xcode's Simulator or a physical device.
+   
+6. Running the App
+
+    To run the app on a connected device or emulator:
+  
+    ```bash
+    flutter run
+
+## Features
+
+Create: Users can add new employee to the database.
+
+Read: Displays the existing data from the database.
+
+Delete: Users can delete specific employee data.
+
+## Technologies Used
+
+Flutter: A popular cross-platform framework for building mobile applications.
+cosmocloud : Used to create a simple CRUD APIs on Cosmocloud,This can be done using the CRUD template on Cosmocloud in just minutes.
+
+## Resources for API 
+
+[Signup on Cosmocloud (it’s Free)](https://cosmocloud.io/redirect?event_id=frontend_hiring_task&redirect_url=https://cosmocloud.io)
+
+[Getting Started on Cosmocloud](https://cosmocloud.io/redirect?event_id=frontend_hiring_task&redirect_url=https://docs.cosmocloud.io/getting-started)
+
+[Sample Tutorials for CRUD](https://cosmocloud.io/redirect?event_id=frontend_hiring_task&redirect_url=https://tutorials.cosmocloud.io/)
+
+[Cosmocloud Documentation](https://cosmocloud.io/redirect?event_id=frontend_hiring_task&redirect_url=https://docs.cosmocloud.io)
+
