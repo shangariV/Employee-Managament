@@ -22,14 +22,19 @@ Follow these steps to set up and run the project locally:
  
      cd Employee-Managament
    
-1. Install Dependencies
+2. Install Dependencies
    
       Run the following command to get the necessary packages:
 
       ```bash
       flutter pub get
+3. Create a CRUD Database in cosmocloud by using below links and replace your projectId and environmentId in employee_remote_data_source class under datasource folder.
+
+     'projectId': '****', //  Replace with your projectId
    
-4. Set Up the Environment
+     'environmentId': '****', //  Replace with your environmentId
+   
+5. Set Up the Environment
    
      Ensure you have an Android or iOS device/emulator connected and set up.
       Android: Use Android Studio's AVD Manager or a physical device.
