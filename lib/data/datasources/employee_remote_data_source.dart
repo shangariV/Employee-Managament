@@ -17,8 +17,8 @@ class EmployeeRemoteDataSource {
 
   static Map<String, String> requestHeaders = {
     "Content-Type": "application/json",
-    'projectId': '66aa607af6fe56d219aaae1c',
-    'environmentId': '66aa607af6fe56d219aaae1d',
+    'projectId': '****',
+    'environmentId': '****',
   };
 
   Future<List<EmployeeModel>> getAllEmployees() async {
